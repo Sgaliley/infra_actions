@@ -54,4 +54,4 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: ${{ secrets.DOCKER_PASSWORD }}/infra_actions:v002 
+          tags: galiley/infra_actions:v002 
